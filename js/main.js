@@ -8,12 +8,11 @@ $(function () {
     });
 
     // $('textarea')
-    $('textarea').blur(function) {
-    	$(this).removeClass('expand');
 
-    // $('.button').click(function () {
+
+    $('.button').click(function () {
         
-    //     $('textarea').css('height', '40px');
+        $('textarea').css('height', '40px');
         // $('#tweet-controls').hide();
     });
 
