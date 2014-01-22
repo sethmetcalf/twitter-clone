@@ -179,20 +179,30 @@ main {
 			.tweet-actions li {
 				display: inline-block;
 				font-size: 12px;
-				color: #2FC2EF;
+				color: #ddd;
 				cursor: pointer;
 				margin-right: 2px;
 			}
 
+		.content:hover .tweet-actions li {
+
+			color: #2fc2ef;
+
+		}
+
 	.icon {
 		color: #2FC2EF;
-		background-color: #2FC2EF;
+		background-color: #ddd;
 		width: 12px;
 		height: 13px;
 		display: inline-block;
 		vertical-align: text-top;
 		background-repeat: no-repeat;
 		background-image: url(https://abs.twimg.com/a/1379560497/t1/img/twitter_web_sprite_icons.png);
+	}
+	.hover .icon {
+		color: #2fc2ef;
+		background-color: #2FC2EF;
 	}
 
 	.action-reply {
@@ -262,5 +272,8 @@ main {
 				top: 0;
 				left: 0;
 			}
+.expand {
+	height: 70px;
+}
 
 
